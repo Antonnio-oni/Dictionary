@@ -20,11 +20,11 @@ def translate(word):
         if a == "y":
             return data[closem]
         elif a == "n":
-            return "Word not found in dictionary"
+            return "Word was not found in dictionary"
         else:
-            return "Entry not understood"
+            return "Entry was not understood"
     else:
-        return "Word not found in dictionary"
+        return "Word was not found in dictionary"
 
 
 quitt = False
